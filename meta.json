@@ -45,5 +45,5 @@
         }
     ],
     "icon": "dex-wunderground",
-    "title": "Get Astronomy" /* Required.A display name for the module */
+    "title": "Weather Underground - Get Astronomy" /* Required.A display name for the module */
 }
