@@ -4,23 +4,46 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
+        },
+        {
+            "id": "state",
+            "title": "State"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "percentIlluminated",
+            "title":"Moon % Illuminated"
+        },
+        {
+            "id": "ageOfMoon",
+            "title":"Moon Age"
+        },
+        {
+            "id": "current_time_hour",
+            "title":"Hour"
+        },
+        {
+            "id": "current_time_minute",
+            "title":"Minute"
+        },
+        {
+            "id": "sunrise",
+            "title":"Sunrise"
+        },
+        {
+            "id": "sunset",
+            "title":"Sunset"
         }
-      */
     ],
-    "title": "wunderground-get_astronomy" /* Required.A display name for the module */
+    "icon": "dex-wunderground",
+    "title": "Get Astronomy" /* Required.A display name for the module */
 }
